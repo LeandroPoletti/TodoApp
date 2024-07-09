@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp_Api", "TodoApp_Api\TodoApp_Api.csproj", "{55B897D2-55BA-417E-982F-BE36A6FA1348}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E1ADAF38-BE80-462A-A5D2-13FA74820A58}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55B897D2-55BA-417E-982F-BE36A6FA1348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B897D2-55BA-417E-982F-BE36A6FA1348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B897D2-55BA-417E-982F-BE36A6FA1348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B897D2-55BA-417E-982F-BE36A6FA1348}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
