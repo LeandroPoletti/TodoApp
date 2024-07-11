@@ -14,8 +14,11 @@ public class Tarefa
     public DateOnly? DataCompleta { get; set; }
     
     //[ForeignKey("Usuario")]
-    [Column("usuario_id")]
-    public int UsuarioId { get; set; }
+    //[Column("usuario_id")]
+    //public int UsuarioId { get; set; }
+    [Column("lista_id")]
+    public int ListaId { get; set; }
 
-    public Usuario UsuarioDono { get; set; } = null!;
+    public Lista PertenceLista { get; set; } = null!;
+    //public Usuario UsuarioDono { get; set; } = null!;
 }

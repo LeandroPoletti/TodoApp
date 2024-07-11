@@ -18,5 +18,6 @@ public class Usuario
     public string Email { get; set; }
     [Column("idade")]
     public int? Idade { get; set; }
-    public ICollection<Tarefa> Tarefas { get; } = new List<Tarefa>();
+    //public ICollection<Tarefa> Tarefas { get; } = new List<Tarefa>();
+    public ICollection<Lista> Listas { get; set; } = new List<Lista>();
 }
